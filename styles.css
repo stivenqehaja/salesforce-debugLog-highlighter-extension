@@ -1,0 +1,28 @@
+/* Styles for the different log levels */
+.log-debug {
+    color: blue;
+    font-weight: bold;
+  }
+  
+  .log-user-debug {
+    color: green;
+    font-weight: bold;
+  }
+  
+  .log-error {
+    color: red;
+    font-weight: bold;
+    background-color: #ffe6e6;
+  }
+  
+  .log-fatal {
+    color: white;
+    background-color: red;
+    font-weight: bold;
+  }
+  
+  .log-event {
+    color: purple;
+    font-style: italic;
+  }
+  
