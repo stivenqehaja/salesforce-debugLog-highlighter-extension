@@ -6,7 +6,21 @@
   "permissions": ["activeTab", "scripting"],
   "content_scripts": [
     {
-      "matches": ["*://*.my.salesforce.com/*", "*://*.lightning.force.com/*"],
+      "matches": [
+        "*://*.cloudforce.com/*",
+        "*://*.cloudforce.mil/*",
+        "*://*.crmforce.mil/*",
+        "*://*.force.com.mcas.ms/*",
+        "*://*.force.com/*",
+        "*://*.force.mil/*",
+        "*://*.salesforce-setup.com/*",
+        "*://*.salesforce.com/*",
+        "*://*.salesforce.mil/*",
+        "*://*.sfcrmapps.cn/*",
+        "*://*.sfcrmproducts.cn/*",
+        "*://*.visualforce.com/*",
+        "*://*.visualforce.mil/*"
+      ],
       "js": ["content.js"]
     }
   ]
